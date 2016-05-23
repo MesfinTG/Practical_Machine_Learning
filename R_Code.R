@@ -1,4 +1,3 @@
-setwd("C:/Users/EMA/Documents/Coursera_Projects/Machine_Learning/")
 trainUrl <- "https://d396qusza40orc.cloudfront.net/predmachlearn/pml-training.csv"
 download.file(trainUrl, destfile= "./pm1_training.csv")
 testUrl <- "https://d396qusza40orc.cloudfront.net/predmachlearn/pml-testing.csv"
